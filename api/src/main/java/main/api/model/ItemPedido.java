@@ -5,7 +5,7 @@ import java.util.UUID;
 
 @Entity @Table(name = "ItemPedido") @Getter @Setter
 @NoArgsConstructor @AllArgsConstructor @Builder
-class ItemPedido {
+public class ItemPedido {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
